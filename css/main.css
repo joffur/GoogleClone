@@ -1,4 +1,4 @@
-/***** Definiendo los estilos globales *****/
+/***** Definición de los estilos globales *****/
 body {
   margin: 0;
   padding: 0;
@@ -54,4 +54,25 @@ main .main-logo {
 main .main-logo img {
   width: 292px;
   height: 92px;
+}
+main .main-input {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+main .main-input-container {
+  width: 525px;
+  border-radius: 100px;
+  border: 1px solid #dfe1e5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5px;
+}
+main .main-input input {
+  flex-grow: 1;
+  height: 40px;
+  border: none;
+  outline: none;
+  background-color: transparent;
 }
