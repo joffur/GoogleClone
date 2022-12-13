@@ -1,3 +1,4 @@
+/***** Definiendo los estilos globales *****/
 body {
   margin: 0;
   padding: 0;
@@ -8,6 +9,8 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+
+/***** Definición de los estilos del header *****/
 header {
   width: 100%;
   height: 60px;
@@ -36,4 +39,19 @@ nav .nav-right-section li {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+/***** Definición de los estilos del main *****/
+main {
+  margin-top: 150px;
+  text-align: center;
+}
+main .main-logo {
+  width: 530px;
+  margin: 0 auto;
+  margin-bottom: 35px;
+}
+main .main-logo img {
+  width: 292px;
+  height: 92px;
 }
