@@ -75,4 +75,17 @@ main .main-input input {
   border: none;
   outline: none;
   background-color: transparent;
+  font-size: 16px;
+}
+main .main-input-container:hover {
+  box-shadow: 0 1px 6px 0 #20212447;
+  border-color: #dfe1e500;
+}
+main .main-input .icon {
+  padding: 0 8px;
+  font-size: 24px;
+}
+main .main-input-container .search-icon {
+  padding-right: 13px;
+  font-size: 22px;
 }
